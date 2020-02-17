@@ -30,11 +30,11 @@ echo " "
             '1') echo "TermuxSet"
         echo -e "\e[0;102m"
         figlet  SetTrmux
-    pkg install python
-	pkg install python3
-	pkg install python3-pip
-	pkg install dos2unix
-	pip3 install requests
+    pkg install python -y
+	pkg install python3 -y
+	pkg install python3-pip -y
+	pkg install dos2unix 
+	pip3 install requests -y
 	pip3 install colorama ;;
             '2') echo "SetLinux"
      apt install python3 python3-pip dos2unix
